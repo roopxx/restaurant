@@ -4,7 +4,7 @@ function homeCreation() {
 
   const restaurantImage = document.createElement("img");
   restaurantImage.classList.add("hide_bg");
-  restaurantImage.src = "../src/images/food_plate2.jpg";
+  restaurantImage.src = "images/food_plate2.jpg";
 
   home.appendChild(addParagraph("Welcome to ToT, Taste of Traditions"));
   home.appendChild(addParagraph("Where Every Bite is a Trip Back in Time."));

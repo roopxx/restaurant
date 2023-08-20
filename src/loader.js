@@ -30,7 +30,7 @@ function navBarGeneration() {
   homeNavBtn.addEventListener("click", (e) => {
     if (e.target.classList.contains("on")) return;
     navOnButton(homeNavBtn);
-    content.style.backgroundImage = "url('../src/images/food_bg.jpg')";
+    content.style.backgroundImage = "url('images/food_bg.jpg')";
     renderHome();
   });
 
@@ -40,7 +40,7 @@ function navBarGeneration() {
   menuNavBtn.addEventListener("click", (e) => {
     if (e.target.classList.contains("on")) return;
     navOnButton(menuNavBtn);
-    content.style.backgroundImage = "url('../src/images/food_bg2.jpg')";
+    content.style.backgroundImage = "url('images/food_bg2.jpg')";
     renderMenu();
   });
 
@@ -50,7 +50,7 @@ function navBarGeneration() {
   contactNavBtn.addEventListener("click", (e) => {
     if (e.target.classList.contains("on")) return;
     navOnButton(contactNavBtn);
-    content.style.backgroundImage = "url('../src/images/food_bg3.jpg')";
+    content.style.backgroundImage = "url('images/food_bg3.jpg')";
     renderContact();
   });
 
@@ -109,7 +109,7 @@ function initializeWebsite() {
   content.appendChild(createFooter());
 
   navOnButton(document.querySelector(".nav_bar"));
-  content.style.backgroundImage = "url('../src/images/food_bg.jpg')";
+  content.style.backgroundImage = "url('images/food_bg.jpg')";
   renderHome();
 }
 

@@ -118,7 +118,7 @@ function createMenuItem(itemName, itemDescription) {
   menuItemName.textContent = itemName;
 
   const menuItemImage = document.createElement("img");
-  menuItemImage.src = `../src/images/${itemName
+  menuItemImage.src = `images/${itemName
     .replace(/\s+/g, "_")
     .toLowerCase()}.jpg`;
   menuItemImage.alt = `${itemName}`;

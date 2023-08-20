@@ -13,7 +13,7 @@ function contactCreation() {
     "🏠 51-A, MKN Road, Race View Colony, Guindy, TN, India";
 
   const restaurantLocation = document.createElement("img");
-  restaurantLocation.src = "../src/images/location.png";
+  restaurantLocation.src = "images/location.png";
   restaurantLocation.alt = "Taste of Traditions restaurant location";
 
   contact.appendChild(contactUs);
